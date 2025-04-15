@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Фізичні вправи</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<div class="main">
+<h2>Калькулятор фізичної активності</h2>
+<label for="phys">Оберіть вправу:</label>
+<select id="phys" onchange="update()">
+    <option value="5,відведення рук.png,Відведення рук">Відведення рук (10 повторень)</option>
+    <option value="5,підняття рук.png,Підняття рук">Підняття рук (10 повторень)</option>
+    <option value="6,згинання рук.png,Згинання рук">Згинання рук (10 повторень)</option>
+    <option value="7,випади.png,Випади">Випади (10 повторень)</option>
+    <option value="7,махи ніг з резинкою.png,Махи ніг з резинкою">Махи ніг з резинкою (10 повторень)</option>
+    <option value="13,стрибки на скакалці.png,Стрибки на скакалці">Стрибки на скакалці (10 повторень)</option>
+    <option value="10,альпініст.png,Альпініст">Альпініст (30 секунд)</option>
+    <option value="6,підняття ніг на прес.png,Підняття ніг на прес">Підняття ніг на прес (10 повторень)</option>
+    <option value="7,скручування.png,Скручування">Скручування (10 повторень)</option>
+
+</select>
+<img id="physImage" src="відведення рук.png">
+<label for="count">Введіть кількість повторень:</label>
+<input type="number" id="count" min="1">
+<button onclick="calories()">Розрахувати</button>
+<h3>Результати:</h3>
+<p id="result"></p>
+<h3 id="vprava_zag">Cписок виконаних вправ:</h3>
+<ul id="vprava">
+
+    
+</ul>
+<h3 id="total_zag">Загальна кількість калорій:</h3id="total_ccal">
+<p id="total_ccal"></p>
+
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>

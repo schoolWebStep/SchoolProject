@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.main
+{
+    max-width: 400px;
+    margin:auto;
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fbf2f6;
+}
+select,input,button
+{
+    width: 95%;
+    margin:10px 0;
+    padding: 10px;
+
+
+}
+input{
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#physImage{
+    width: 100%;
+    max-height: 400px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+body{
+    text-align: center;
+    margin:20px;
+
+}
+.main,button,option,select{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  font-size:20px;
+  border:5px solid #f7568a;
+  border-radius: 20px;
+}
+button{
+    background-color: #f7568a;
+    color:white;
+}
+button:hover{
+    background-color:#fb7ea6;
+    color:white;
+}
+ul {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+    max-width: 400px;
+  }
+  
+ li {
+    background-color: #f0f8ff;
+    border-left: 5px solid #f7568a;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+ li:hover {
+    background-color: #f3c6d4;
+  }
